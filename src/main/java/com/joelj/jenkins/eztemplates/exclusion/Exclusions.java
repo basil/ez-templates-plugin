@@ -25,6 +25,7 @@ public class Exclusions {
     static {
         ImmutableList.Builder<Exclusion> builder = ImmutableList.builder();
         builder.add(new EzTemplatesExclusion());
+		builder.add(new DiscardExclusion());
         builder.add(new JobParametersExclusion());
         builder.add(new TriggersExclusion());
         builder.add(new DisabledExclusion());
