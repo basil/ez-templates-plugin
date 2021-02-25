@@ -1,5 +1,8 @@
 # EZ Templates Changelog
 
+## 1.3.4
+* Feature: Support for "discard old builds" feature
+
 ## 1.3.3
 * Bugfix: JENKINS-63055 2.244+ Jelly compatibility
 

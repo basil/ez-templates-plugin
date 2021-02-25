@@ -2,15 +2,14 @@ package com.joelj.jenkins.eztemplates.exclusion;
 
 import com.google.common.base.Throwables;
 import hudson.model.AbstractProject;
-import hudson.model.Label;
 import jenkins.model.BuildDiscarder;
 
 import java.io.IOException;
 
 public class DiscardExclusion extends AbstractExclusion {
 
-    public static final String ID = "discard-label";
-    private static final String DESCRIPTION = "Retain Discard Strategy";
+    public static final String ID = "discard";
+    private static final String DESCRIPTION = "Retain local \"discard old builds\" policy";
 
     public DiscardExclusion() {
         super(ID, DESCRIPTION);
