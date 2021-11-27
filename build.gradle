@@ -56,7 +56,7 @@ jenkinsPlugin {
     gitHubUrl = 'https://github.com/jenkinsci/ez-templates-plugin.git'
 
     // use the plugin class loader before the core class loader, defaults to false
-    pluginFirstClassLoader = true
+    pluginFirstClassLoader = false
 
     developers {
         developer {
